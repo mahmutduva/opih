@@ -1,0 +1,17 @@
+/* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url('../fonts/Gotham/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: Gotham-Medium;
+    src: url('../fonts/Gotham/Gotham-Medium.otf');
+}
+
+@font-face {
+    font-family: Gotham-Light;
+    src: url('../fonts/Gotham/Gotham-Light.otf');
+}

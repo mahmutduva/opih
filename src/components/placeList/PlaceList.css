@@ -1,0 +1,38 @@
+.places{
+	float: left;
+	width: 620px;
+}
+
+.places .place{
+	float: left;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.places .place img{
+	float: left;
+}
+
+.places .place-cover{
+  width: 290px;
+  height: 290px;
+  opacity: 0.5;
+  background-color: #12195f;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+}
+
+.places .place-name{
+  position: absolute;
+  bottom: 56px;
+  left: 18px;
+  width: 90%;
+  font-family: 'Gotham-Book';
+  font-size: 25px;
+  color: #ffffff;
+  z-index: 3;
+}
+

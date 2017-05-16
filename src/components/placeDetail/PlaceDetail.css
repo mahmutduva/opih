@@ -1,0 +1,105 @@
+.place-detail{
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+
+.place-detail-header{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.place-detail-header .image-cover{
+	width: 100%;
+	height: 100%;
+  opacity: 0.6;
+  background-color: #12195f;
+  position: absolute;
+}
+
+.place-detail-header .logo{
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	margin-left: -227px;
+}
+
+.place-detail-header .category{
+	position: absolute;
+	z-index: 1;
+	top: 114px;
+	left: 50%;
+	margin-left: -265px;
+}
+
+
+
+.place-detail-header .cover-image{
+	width: 100%;
+	float: left;
+}
+
+.place-detail-header .line{
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 115px;
+  opacity: 0.8;
+  background-image: linear-gradient(95deg, #1e0db4, #e44747);
+}
+
+.place-detail-header .place-name{
+  position: absolute;
+  bottom: 143px;
+  left: 174px;
+  z-index: 1;
+  font-family: 'Gotham-Light';
+  font-size: 64px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.place-detail-content{
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 174px;
+  margin-top:20px;
+  position: relative;
+  z-index: 2;
+}
+
+.place-detail-header .place-rating{
+    right: 174px;
+    bottom: 82px;
+}
+
+.place-detail-header .place-rating div{
+    margin-top: 22px;
+    margin-left: 0px;
+}
+
+.place-detail-header .place-information{
+  position: absolute;
+  height: 115px;
+  z-index: 1;
+  bottom: 0px;
+  left: 174px;
+}
+
+.place-detail-header .place-information div{
+  height: 12px;
+  font-family: 'Gotham-Medium';
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 18px;
+}
+.place-detail-header .place-information div:first-child{
+  margin-top: 24px;
+}

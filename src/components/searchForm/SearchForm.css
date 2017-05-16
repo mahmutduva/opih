@@ -1,0 +1,40 @@
+.search-form{
+  width: 543px;
+  display: inline-block;
+}
+
+.search-form .input{
+  height: 45px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 12px 21px 0 rgba(0, 0, 0, 0.24);
+  border: 0;
+  font-family: 'Gotham-Book';
+  font-size: 14px;
+  color: #9b9b9b;
+  padding-left: 20px;
+  box-sizing: border-box;
+  float: left;
+  outline: none;
+}
+
+.search-form .input-small {
+  width: 156px;
+  margin-left: 10px;
+}
+
+.search-form .input-big{
+  width: 285px;
+}
+
+.search-form .button{
+  margin-left: 10px;
+  width: 77px;
+  height: 45px;
+  border-radius: 4px;
+  box-shadow: 0 12px 21px 0 rgba(0, 0, 0, 0.24);
+  border: 0;
+  background: url('../../assets/images/shape.png') #ff5f5f center 0;
+  outline: none;
+  cursor: pointer;
+}

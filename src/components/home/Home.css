@@ -1,0 +1,42 @@
+.home-bg{
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 131px;
+  text-align: center;
+  background: url('../../assets/images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.home-content{
+  position: relative;
+  width: 590px;
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+
+.home-title{
+  display: inline-block;
+  width: 590px;
+  height: 55px;
+  font-family: 'Gotham-Light';
+  font-size: 55px;
+  font-weight: 200;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.home-description{
+  display: inline-block;
+  width: 543px;
+  height: 36px;
+  font-family: 'Gotham-Light';
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 65px;
+}

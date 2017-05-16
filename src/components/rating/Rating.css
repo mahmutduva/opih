@@ -1,0 +1,22 @@
+.place-rating{
+  position: absolute;
+  right: 14px;
+  bottom: -32px;
+  width: 65px;
+  height: 65px;
+  transform: rotate(-45deg);
+  background-color: #776cee;
+  z-index: 3;
+  
+}
+
+.place-rating div{
+  font-family: 'Gotham-Light';
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  transform: rotate(45deg);
+  color: #ffffff;
+  margin-top: 14px;
+  margin-left: 16px;
+}

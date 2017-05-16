@@ -1,0 +1,31 @@
+.photos{
+	float: left;
+	width: 620px;
+}
+
+.photos .photo{
+	float: left;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.photos .photo img{
+	float: left;
+}
+
+.photos .photo-cover{
+  width: 290px;
+  height: 290px;
+  opacity: 0.5;
+  background-color: #12195f;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  display: none;
+}
+
+.photos .photo:hover .photo-cover{
+	display: block;
+}
