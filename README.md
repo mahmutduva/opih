@@ -1,5 +1,8 @@
-# opih
-react / redux-thunk single page application
+# Opih
+React / Redux-thunk single page application
+
+
+## Installation
 
 ```
 npm install
