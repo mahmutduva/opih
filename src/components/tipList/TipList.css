@@ -4,6 +4,7 @@
   background-color: #ffffff;
   box-shadow: 0 0 34px 0 rgba(115, 95, 255, 0.32);
   margin-top: -75px;
+  display: none;
 }
 
 
@@ -97,4 +98,10 @@
   padding-top: 46px;
   text-decoration: underline;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .tip-bg{
+    display: block;
+  }
 }

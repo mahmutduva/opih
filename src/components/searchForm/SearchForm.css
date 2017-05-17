@@ -1,5 +1,5 @@
 .search-form{
-  width: 543px;
+  width: 320px;
   display: inline-block;
 }
 
@@ -19,17 +19,17 @@
 }
 
 .search-form .input-small {
-  width: 156px;
+  width: 86px;
   margin-left: 10px;
 }
 
 .search-form .input-big{
-  width: 285px;
+  width: 165px;
 }
 
 .search-form .button{
   margin-left: 10px;
-  width: 77px;
+  width: 47px;
   height: 45px;
   border-radius: 4px;
   box-shadow: 0 12px 21px 0 rgba(0, 0, 0, 0.24);
@@ -37,4 +37,38 @@
   background: url('../../assets/images/shape.png') #ff5f5f center 0;
   outline: none;
   cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  .search-form{
+    width: 480px;
+  }
+  .search-form .input-small {
+    width: 146px;
+    margin-left: 10px;
+  }
+
+  .search-form .input-big{
+    width: 250px;
+  }
+  .search-form .button{
+    width: 57px;
+  }
+}
+
+@media (min-width: 768px) {
+  .search-form{
+    width: 543px;
+  }
+  .search-form .input-small {
+    width: 156px;
+    margin-left: 10px;
+  }
+
+  .search-form .input-big{
+    width: 285px;
+  }
+  .search-form .button{
+    width: 77px;
+  }
 }

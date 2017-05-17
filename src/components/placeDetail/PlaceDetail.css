@@ -25,6 +25,7 @@
 	z-index: 1;
 	left: 50%;
 	margin-left: -227px;
+  display: none;
 }
 
 .place-detail-header .category{
@@ -33,9 +34,8 @@
 	top: 114px;
 	left: 50%;
 	margin-left: -265px;
+  display: none;
 }
-
-
 
 .place-detail-header .cover-image{
 	width: 100%;
@@ -55,12 +55,13 @@
 .place-detail-header .place-name{
   position: absolute;
   bottom: 143px;
-  left: 174px;
+  left: 0;
   z-index: 1;
   font-family: 'Gotham-Light';
   font-size: 64px;
   font-weight: 300;
   color: #ffffff;
+  padding: 0 10px;
 }
 
 .place-detail-content{
@@ -102,4 +103,16 @@
 }
 .place-detail-header .place-information div:first-child{
   margin-top: 24px;
+}
+
+@media (min-width: 768px) {
+  .place-detail-header .place-name{
+    left: 174px;
+  }
+  .place-detail-header .logo{
+    display: block;
+  }
+  .place-detail-header .category{
+    display: block;
+  }
 }

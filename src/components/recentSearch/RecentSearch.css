@@ -3,8 +3,8 @@
   width: 290px;
   background-color: #ffffff;
   box-shadow: 0 0 34px 0 rgba(255, 95, 95, 0.32);
+  display: none;
 }
-
 
 .recent-search-title{
   width: 100%;
@@ -46,4 +46,10 @@
 
 .recent-search-list li:last-child{
 	border-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .recent-search-bg{
+    display: block;
+  }
 }

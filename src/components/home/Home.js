@@ -7,7 +7,7 @@ import logo from '../../assets/images/logo.png'
 const Home = () =>
   <div className='home-bg'>
     <content className='home-content'>
-      <img src={logo} alt='logo' />
+      <img src={logo} alt='logo' className='logo-image' />
       <h1 className='home-title'>Lorem ipsum dolar sit</h1>
       <p className='home-description'>Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
       <SearchForm />

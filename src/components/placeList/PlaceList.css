@@ -1,6 +1,6 @@
 .places{
 	float: left;
-	width: 620px;
+	width: calc(100%);
 }
 
 .places .place{
@@ -36,3 +36,8 @@
   z-index: 3;
 }
 
+@media (min-width: 768px) {
+  .places{
+    width: calc(100% - 290px);
+  }
+}

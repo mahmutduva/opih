@@ -12,18 +12,19 @@
 
 .home-content{
   position: relative;
-  width: 590px;
+  width: 320px;
   text-align: center;
   display: inline-block;
   z-index: 1;
 }
 
+
 .home-title{
   display: inline-block;
-  width: 590px;
+  width: 320px;
   height: 55px;
   font-family: 'Gotham-Light';
-  font-size: 55px;
+  font-size: 35px;
   font-weight: 200;
   text-align: center;
   color: #ffffff;
@@ -32,11 +33,47 @@
 
 .home-description{
   display: inline-block;
-  width: 543px;
+  width: 320px;
   height: 36px;
   font-family: 'Gotham-Light';
-  font-size: 16px;
+  font-size: 13px;
   text-align: center;
   color: #ffffff;
   margin-bottom: 65px;
+}
+
+.logo-image{
+  width: 320px;
+}
+
+@media (min-width: 480px) {
+  .home-content{
+    width: 480px;
+  }
+  .home-title{
+    width: 480px;
+  }
+  .home-description{
+    width: 480px;
+  }
+  .logo-image{
+    width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-content{
+    width: 590px;
+  }
+  .home-title{
+    width: 590px;
+    font-size: 55px;
+  }
+  .home-description{
+    width: 543px;
+    font-size: 16px;
+  }
+  .logo-image{
+    width: 454px;
+  }
 }

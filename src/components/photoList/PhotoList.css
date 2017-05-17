@@ -1,6 +1,6 @@
 .photos{
 	float: left;
-	width: 620px;
+	width: 100%;
 }
 
 .photos .photo{
@@ -28,4 +28,11 @@
 
 .photos .photo:hover .photo-cover{
 	display: block;
+}
+
+
+@media (min-width: 768px) {
+  .photos{
+    width: calc(100% - 290px);
+  }
 }
