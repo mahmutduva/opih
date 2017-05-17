@@ -9,6 +9,8 @@ import Rating from '../rating/Rating'
 
 import logo_detail from '../../assets/images/logo_detail.png'
 import category from '../../assets/images/category.png'
+import location_ico from '../../assets/images/location.png'
+import contact_ico from '../../assets/images/contact.png'
 
 import './PlaceDetail.css'
 
@@ -30,8 +32,8 @@ class PlaceDetail extends Component {
             <div className='place-name'>{name}</div>
             <Rating rating={rating} />
             <div className='place-information'>
-              <div>{location.address}</div>
-              <div>{contact.formattedPhone}</div>
+              <div><img src={location_ico} /> {location.address}</div>
+              <div><img src={contact_ico} /> {contact.formattedPhone}</div>
               <div>{ratingSignals}</div>
             </div>
             <img src={bestPhoto.prefix + '1280x600' + bestPhoto.suffix} className='cover-image' alt='cover' />
